@@ -1,0 +1,10 @@
+button{
+    width : 200px;
+    padding:10px;
+    border-radius: 0;
+    border:1px solid saddlebrown;
+    background-color: saddlebrown;
+    color: beige;
+    box-shadow: 2px 2px 8px sienna;
+    margin: 10px;
+}
