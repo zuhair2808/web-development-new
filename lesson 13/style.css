@@ -30,3 +30,32 @@ body{
     color:chocolate;
     background-color:white;
 }
+.container{
+    display:flex;
+    margin:2rem;
+    gap:2rem;
+}
+.content article, .sidebar_widget {
+    background-color:white;
+    padding:15px;
+    margin-bottom:15px;
+    border-radius:8px;
+    box-shadow: 0 0 7px gray;
+}
+.content img{
+    width: 100%;
+    border-radius:5px;
+}
+.sidebar_widget ul{
+    list-style:square;
+}
+.sidebar_widget ul li a{
+    color:#333;
+    text-decoration: none;
+}
+.sidebar_widget ul li a:hover{
+    font-weight:bold;
+}
+.slidebar_weight h3{
+    text-decoration: underline;
+}
