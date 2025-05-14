@@ -2,13 +2,13 @@ body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin:0;
     padding:0;
-    background-color: beige;
+    background-color:beige;
 }
 .navbar{
     display:flex;
     justify-content:space-between;
     align-items: center;
-    background-color: lightblue;
+    background-color:lightblue;
     color:cadetblue;
     padding: 5px 10px;
 }
@@ -26,34 +26,9 @@ body{
     padding:10px;
     border-radius:5px;
 }
-.navbar a:hover, .navbar a.active {
+.navbar a:hover {
     color:chocolate;
     background-color:white;
-}
-.container_destination{
-    padding:40px 20px;
-    max-width:1000px;
-    margin:0 auto;
-}
-.grid{
-    display:grid;
-    grid-template-columns: auto auto auto;
-    gap:20px
-}
-.destination_card{
-    background-color:white;
-    padding:20px;
-    border-radius:6px;
-    box-shadow: 5px 5px 7px rgb(106, 93, 93);
-}
-.destination_card h3 {
-    color:#333;
-    margin-top:0;
-}
-.destination_card p{
- color:#555;
- font-size: 0.95em;
- letter-spacing:1px;
 }
 .container{
     display:flex;
@@ -83,33 +58,4 @@ body{
 }
 .slidebar_weight h3{
     text-decoration: underline;
-}
-footer{
-    background-color: lightblue;
-    color:white;
-    padding:30px 20px;
-    text-align:center;
-}
-.footer_container {
-    max-width:1000px;
-    margin:auto;
-}
-.footer title{
-    font-size:20px;
-    font-weight:bold;
-    margin-bottom:30px;
-}
-.footer_tagline{
-    font-size:17px;
-}
-footer a{
-    color:cadetblue;
-    text-decoration:underline;
-}
-footer a:hover{
-    text-decoration: underline;
-}
-.footer_copy {
-    font-size:12px;
-    margin-top:30px;
 }
